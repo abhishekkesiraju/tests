@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,p;
+    int free_amount;
+    printf("enter coffee\n");
+    scanf("%d %d",&x,&p);
+    free_amount = ((100*x)/p)+x;
+    printf("%d",free_amount);
+    return 0;
+}
